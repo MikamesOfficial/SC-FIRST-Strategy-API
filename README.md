@@ -42,7 +42,7 @@ import kong.unirest.Unirest;
 
 public class App {
     public static void main(String[] args) {
-        String TEAM_API_KEY = TEAM_API_KEY; // Again, not the TBA one
+        String TEAM_API_KEY = "TEAM_API_KEY"; // Again, not the TBA one
 
         HttpResponse<String> response = Unirest.get("https://scfirst5436-strategy-806036691402.us-central1.run.app/")
                 .header("Content-Type", "application/json")
@@ -97,7 +97,7 @@ import kong.unirest.Unirest;
 
 public class App {
     public static void main(String[] args) {
-        String TEAM_API_KEY = TEAM_API_KEY; // Not TBA key
+        String TEAM_API_KEY = "TEAM_API_KEY"; // Not TBA key
         String url = "https://scfirst5436-strategy-806036691402.us-central1.run.app/";
 
         // We create a JSON with some values
